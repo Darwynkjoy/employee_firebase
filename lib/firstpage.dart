@@ -20,7 +20,9 @@ class _firstpageState extends State<Firstpage>{
         showBottomSheet(context: context,
         builder: (BuildContext context){
           return Container(
+            height: 300,
             width: 410,
+            color: Colors.amber,
           );
         });
       },
